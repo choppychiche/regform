@@ -1,0 +1,101 @@
+.header {
+    text-align: center;
+    margin-top: 1in;
+    font-size: .5in;
+}
+
+.sign a {
+    margin-left: 9in;
+    font-size: .25in;
+    font-weight: 100;
+    text-decoration: none;
+    color: white;
+    margin-top: -1in;
+}
+
+.sign a:hover {
+    color: black;
+}
+
+
+
+body {
+    background: url('event.jpg');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: 100%;
+        background-position: center; 
+}
+
+/*  Start of registration form */
+.regform {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 350px;
+}
+
+.regform h1 {
+    margin-top: 3in;
+    color: white; 
+    font-size: 25px;
+    text-align: center;
+}
+
+.regform p {
+    color: white;
+}
+
+.regform-input {
+    font-size: 14px;
+    padding: 10px;
+    width: 100%;
+    border: 0;
+    border-radius: 5px;
+    outline: none;
+}
+
+.regform button {
+    font-size: 12px;
+    font-weight: bold;
+    margin: center;
+    padding: 10px 15px;
+    width: 50%;
+    border: 0;
+    border-radius: 5px ;
+}
+
+.regform button:hover {
+    color: blueviolet;
+}
+/* End of registration form */
+
+
+/* industry dropdown*/
+.industry-input {
+    padding: 10%;
+    margin: center;
+    width: 10%;
+    border: 0;
+    border-radius: 5px;
+}
+
+
+.industry p {
+    color: white; 
+    font-size: 17px;
+}
+/* end of industry dropdown */
+
+/* ty form*/
+.ty a {
+    color: white;
+}
+
+.ty {
+    text-align: center;
+    font-size: 60px;
+    margin-top: 2in;
+}
+/* end of ty form*/
